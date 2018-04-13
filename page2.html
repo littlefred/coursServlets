@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>cours Servlet exercice Html</title>
+</head>
+<body>
+	<h2>Second page test HTML du cours sur les Servlets</h2>
+	<p>Page pour tester la methode POST via un formulaire</p>
+	<a href="../">retour</a>
+	<br /><br/>
+	<form action="" method="POST">
+		<fieldset>Classic input (text, email, tel, password)<br/><br/>
+			<label for="pseudo">Pseudo : </label> <input type="text" name="nom" id="pseudo"/>
+			<label for="mail">Mail : </label> <input type="email" name="mail" id="mail" />
+			<label for="tel">tel : </label><input type="tel" id="tel"/>
+			<label for="pwd">tel : </label><input type="password" id="pwd"/>
+		</fieldset>
+		<fieldset>Input style boxes<br/><br/>
+			<label for="checkbox1">check1 : </label><input type="checkbox" id="checkbox1" value="check1"/>
+			<label for="checkbox2">check2 : </label><input type="checkbox" id="checkbox2" value="check1"/>
+			<label for="checkbox3">check3 : </label><input type="checkbox" id="checkbox3" value="check1"/><br/>
+			<label for="radio1">radio1 : </label><input type="radio"id="radio1" value="radio1"/>
+			<label for="radio2">radio2 : </label><input type="radio"id="radio2" value="radio2"/>
+		</fieldset>
+		<fieldset>Input style list<br/><br/>
+			<label for="datalist">list via datalist : </label><input list="age" id="datalist"/>
+			<datalist id="age">
+  				<option value="bébé">
+  				<option value="enfant">
+  				<option value="adolescent">
+  				<option value="adulte">
+  				<option value="papi ou mami">
+			</datalist>
+			<label for="country">list via select : </label>
+			<select id="country">
+				<option value=""></option>
+				<option value="France">France</option>
+				<option value="Spain">Spain</option>
+			</select>
+		</fieldset>
+		<fieldset>Input style date / time :<br/><br/>
+			<label for="date">date : </label><input type="date" id="date"/>
+			<label for="datetime-local">datetime local : </label><input type="datetime-local" id="datetime-local"/>
+			<label for="datetime">datetime : </label><input type="datetime" id="datetime"/>
+			<label for="time">time : </label><input type="time" id="time"/> <br />
+			<label for="month">month : </label><input type="month" id="month"/>
+			<label for="week">week : </label><input type="week" id="week"/>
+		</fieldset>
+		<fieldset>Input file and image<br/><br/>
+			<label for="file">file : </label><input type="file" id="file"/>
+			<label for="image">image : </label><input type="image" id="image"/>
+		</fieldset>
+		
+		
+		<input type="color"/> <br />
+		
+		<input type="hidden"/> <br />
+		
+		<input type="number"/> <br />
+		
+		
+		
+		<input type="url"/> <br />
+		
+		<input type="range"/> <br />
+		<input type="reset"/> <br />
+		<input type="search"/> <br />
+		<input type="submit"/> <br />
+		<textarea rows="" cols=""></textarea> <br />
+
+		<button type="submit">Envoyer</button>
+		<button type="reset">Reset</button>
+		<button type="button">button</button>
+	</form>
+</body>
+</html>
